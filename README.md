@@ -1,0 +1,3 @@
+# Haskell Infinite List Length Bug
+
+This repository demonstrates a common error in Haskell programming: attempting to calculate the length of an infinite list.  The program `bug.hs` uses the `length` function on an infinite list, causing it to run forever. The solution, provided in `bugSolution.hs`, shows how to handle such situations using techniques like taking a finite sublist or using other appropriate functions that work well with infinite lists depending on the goal.
